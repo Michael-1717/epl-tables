@@ -1,0 +1,17 @@
+# List of EPL top goal scorers
+epl_top_scorers = [
+    {"name": "Alan Shearer", "goals": 260},
+    {"name": "Wayne Rooney", "goals": 208},
+    {"name": "Harry Kane", "goals": 213},  # Updated as of 2023
+    {"name": "Andrew Cole", "goals": 187},
+    {"name": "Sergio Agüero", "goals": 184},
+    {"name": "Frank Lampard", "goals": 177},
+    {"name": "Thierry Henry", "goals": 175},
+    {"name": "Robbie Fowler", "goals": 163},
+    {"name": "Jermain Defoe", "goals": 162},
+    {"name": "Michael Owen", "goals": 150},
+]
+
+# Print the list of top scorers
+for scorer in epl_top_scorers:
+    print(f"{scorer['name']}: {scorer['goals']} goals")
